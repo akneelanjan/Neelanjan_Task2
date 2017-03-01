@@ -322,20 +322,11 @@ int main()
 
 		for(i=0; i<cnt; i++)
 		{
-			cout << sum[i];
-		}
-		cout << endl;
-
-		for(i=0; i<cnt; i++)
-		{
 			ans = ans + pow(10,i) * sum[i];
 		}
 
 		cout << ans <<endl;
 		ans = 0;
-
-		
-
 		break;
 
 
@@ -374,12 +365,6 @@ int main()
 		}
 
 		object.difference(d, x, cnt1, e, y, cnt2, object.base);
-
-		for(i=0; i<cnt; i++)
-		{
-			cout << diff[i];
-		}
-		cout << endl;
 
 		for(i=0; i<cnt; i++)
 		{
@@ -425,12 +410,6 @@ int main()
 		}
 
 		object.multiplication(x, cnt1, y, cnt2, object.base);
-
-		for(i=0; i<cnt; i++)
-		{
-			cout << mult[i];
-		}
-		cout << endl;
 
 		for(i=0; i<cnt; i++)
 		{

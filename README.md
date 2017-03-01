@@ -9,4 +9,5 @@ This program is capable of addition, multiplication and finding difference of po
 ## Features
 * You can use all bases from 2 to 10.
 * It is also capable of interconversion of number systems among bases from 2 to 10.
+* It points out extraneous errors - like if a binary input by user includes 2 it shows invalid input.
 

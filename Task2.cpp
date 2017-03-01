@@ -284,6 +284,8 @@ int main()
 	switch(ch){
 
 	case '+': 
+		
+		cout << "Enter A: ";	
 		cin >> a;
 		d = a;
 		
@@ -299,6 +301,7 @@ int main()
 			cnt1++;
 		}
 
+		cout << "Enter B: ";
 		cin >> b;
 		e = b;
 
@@ -337,6 +340,8 @@ int main()
 
 
 	case '-':
+		
+		cout << "Enter A: ";
 		cin >> a;
 		d = a;
 		
@@ -352,6 +357,7 @@ int main()
 			cnt1++;
 		}
 
+		cout << "Enter B: ";
 		cin >> b;
 		e = b;
 
@@ -385,6 +391,8 @@ int main()
 		break;
 
 	case '*': 
+		
+		cout << "Enter A: ";	
 		cin >> a;
 		d = a;
 		
@@ -400,6 +408,7 @@ int main()
 			cnt1++;
 		}
 
+		cout << "Enter B: ";
 		cin >> b;
 		e = b;
 
@@ -433,6 +442,8 @@ int main()
 		break;
 
 	case '#':
+		
+		cout << "Enter A: ";	
 		cin >> a;
 		d = a;
 		while (a!=0)
@@ -446,6 +457,7 @@ int main()
 
 		}
 
+		cout << "Enter base of system to convert to: ";
 		cin >> c;
 
 		e = object.interconvert(d, object.base, c);

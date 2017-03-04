@@ -2,6 +2,7 @@
 #include <iostream>
 #include <math.h>
 #include <stdlib.h>
+#include <string.h>
 using namespace std;
 
 int n[1000], m[1000], T=0, conv[1000]={0};
